@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: cuide-do-geraldei
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: website/public/cuide-do-geraldei
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /manifest.json
+        name: Cache-Control
+        value: public, max-age=300
