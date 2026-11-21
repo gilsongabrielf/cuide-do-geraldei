@@ -420,9 +420,9 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   transform-origin: center bottom;
   animation: petBreathe 3.2s ease-in-out infinite;
 }
@@ -491,8 +491,8 @@ body {
 
 /* Cabeça Oficial do Geraldei encaixada sobre o corpo cartoon */
 .pet-head-wrap {
-  position: absolute;
-  bottom: clamp(82px, 16vh, 114px);
+  position: relative;
+  margin-bottom: clamp(-48px, -9.5vw, -34px);
   width: clamp(176px, 44vw, 224px);
   aspect-ratio: 1 / 1.03;
   display: flex;
@@ -1611,7 +1611,7 @@ body {
   }
   .pet-head-wrap {
     width: clamp(136px, 28vh, 178px);
-    bottom: clamp(66px, 14vh, 92px);
+    margin-bottom: clamp(-36px, -6.5vh, -26px);
   }
   .bulldog-body-svg {
     width: clamp(120px, 24vh, 158px);
