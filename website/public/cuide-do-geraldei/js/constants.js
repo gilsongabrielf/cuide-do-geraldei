@@ -97,6 +97,13 @@ export const OFFICIAL_SPRITES = Object.freeze({
     src: "./assets/sprites/geraldei-serio.jpeg",
     cutoutSrc: "./assets/sprites/geraldei-serio.jpeg",
   }),
+  sleeping: Object.freeze({
+    id: "sleeping",
+    label: "Dormindo",
+    originalFile: "geraldei-dormindo.jpg",
+    src: "./assets/sprites/geraldei-dormindo.jpg",
+    cutoutSrc: "./assets/sprites/cutouts/sleeping.png",
+  }),
 });
 
 /**

@@ -118,7 +118,7 @@ export class SpriteManager {
       return this.getSprite(seriousStyle === "portrait" ? "seriousPortrait" : "needy");
     }
     if (mood === "sleeping") {
-      return this.getSprite("needy");
+      return this.getSprite("sleeping");
     }
     return this.getSprite(playfulFrame % 2 === 0 ? "playfulA" : "playfulB");
   }

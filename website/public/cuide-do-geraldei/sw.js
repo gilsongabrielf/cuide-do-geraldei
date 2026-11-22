@@ -1,4 +1,4 @@
-const CACHE_NAME = "cuide-do-geraldei-v1";
+const CACHE_NAME = "cuide-do-geraldei-v2";
 const PRECACHE_ASSETS = [
   "./",
   "./index.html",
@@ -21,6 +21,8 @@ const PRECACHE_ASSETS = [
   "./assets/sprites/cutouts/grumpy.png",
   "./assets/sprites/cutouts/needy.png",
   "./assets/sprites/geraldei-serio.jpeg",
+  "./assets/sprites/cutouts/sleeping.png",
+  "./assets/sprites/geraldei-dormindo.jpg",
 ];
 
 self.addEventListener("install", (event) => {
